@@ -1,6 +1,12 @@
 # stop-esp32-s3-to-reboot
 
 
+✅ Phone mirrors to HDMI → capture card → laptop (vision path)
+✅ Laptop → serial → ESP32-S3 → USB HID multitouch → phone (action path)
+✅ Single port open = zero resets, HID stays attached the whole session
+✅ Coordinate mapping aligned between capture and touch
+
+
 ```
 Initializing HDMI capture...
 Waiting for capture card to lock HDMI signal...
